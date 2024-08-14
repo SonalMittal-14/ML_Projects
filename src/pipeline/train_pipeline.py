@@ -1,0 +1,1 @@
+#in this trinig pipline i will trigger all the file in the components
