@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src')) 
 
-from logger import logging 
+from src.logger import logging 
 
 def error_message_detail(error,error_detai:sys): # in this function we write that how the exception message should look like
     _,_,exc_tb = error_detai.exc_info() # on which file the eceptipn has occured and on which line
